@@ -4,6 +4,7 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"LhtFile": "00_core.ipynb",
          "NepalModel": "00_core.ipynb",
+         "NepalDataset": "00_core.ipynb",
          "lht_listMethodsOfObj": "01_core_fun.ipynb",
          "FindFilesByExtension": "01_core_fun.ipynb",
          "Lht_CreateTestDataset": "01_core_fun.ipynb",
@@ -12,7 +13,13 @@ index = {"LhtFile": "00_core.ipynb",
          "randomSelectSamples": "01_core_fun.ipynb",
          "lht_generate_cocojson": "01_core_fun.ipynb",
          "lhtGenerateTestData": "01_core_fun.ipynb",
-         "searchImageByName": "01_core_fun.ipynb"}
+         "searchImageByName": "01_core_fun.ipynb",
+         "Lht_SlideWindow": "01_core_fun.ipynb",
+         "isInclude": "01_core_fun.ipynb",
+         "CreateAnnotation": "01_core_fun.ipynb",
+         "GenerateTrainDateByJson": "01_core_fun.ipynb",
+         "LhtConstructDSByImageID": "01_core_fun.ipynb",
+         "LhtGetDataByJson": "01_core_fun.ipynb"}
 
 modules = ["core.py",
            "funcs.py"]
