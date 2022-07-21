@@ -13,6 +13,7 @@ import json
 import numpy as np
 import shutil
 import warnings
+from tqdm import tqdm
 
 # Cell
 def lht_listMethodsOfObj(obj):
