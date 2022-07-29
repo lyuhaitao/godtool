@@ -14,6 +14,7 @@ import numpy as np
 import shutil
 import warnings
 from tqdm import tqdm
+import cv2
 
 # Cell
 def lht_listMethodsOfObj(obj):
