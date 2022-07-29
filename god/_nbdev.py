@@ -19,7 +19,8 @@ index = {"LhtFile": "00_core.ipynb",
          "CreateAnnotation": "01_core_fun.ipynb",
          "GenerateTrainDateByJson": "01_core_fun.ipynb",
          "LhtConstructDSByImageID": "01_core_fun.ipynb",
-         "LhtGetDataByJson": "01_core_fun.ipynb"}
+         "LhtGetDataByJson": "01_core_fun.ipynb",
+         "save_checkpoint": "01_core_fun.ipynb"}
 
 modules = ["core.py",
            "funcs.py"]

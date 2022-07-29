@@ -3,7 +3,7 @@
 __all__ = ['lht_listMethodsOfObj', 'FindFilesByExtension', 'Lht_CreateTestDataset', 'lht_compose_transforms',
            'lht_load_json', 'randomSelectSamples', 'lht_generate_cocojson', 'lhtGenerateTestData', 'searchImageByName',
            'Lht_SlideWindow', 'isInclude', 'CreateAnnotation', 'GenerateTrainDateByJson', 'LhtConstructDSByImageID',
-           'LhtGetDataByJson']
+           'LhtGetDataByJson', 'save_checkpoint']
 
 # Cell
 import os
@@ -377,3 +377,8 @@ def LhtGetDataByJson(ds):
     return rtn
     pass
 #
+
+# Cell
+def save_checkpoint(state, filename='model/my_checkpoint.pth.tar'):
+    print('=> Saving checkpoint')
+    torch.save(state,filename)
